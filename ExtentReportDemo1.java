@@ -28,6 +28,7 @@ public class ExtentReportDemo1
 		childExtentLogger.log(Status.PASS,MarkupHelper.createLabel(" - Test Case passed", ExtentColor.GREEN));
 		extent.flush();
 		System.out.println("Done");
+		system.out.println("Ajith");
 	}
 
 }
